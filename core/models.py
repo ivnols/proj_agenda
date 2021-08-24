@@ -18,4 +18,4 @@ class Evento (models.Model):
         return self.titulo #faz aparecer o nome do evento
 
     def get_data_evento(self):
-        return self.data_evento.strftime('%d/%m/%Y')
+        return self.data_evento.strftime('%d/%m/%Y') #adc data e hora na lista de eventos

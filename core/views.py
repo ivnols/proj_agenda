@@ -1,7 +1,10 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
 from core.models import Evento
 
 # Create your views here.
+
+# def index(request):
+#     return redirect('/agenda')
 
 def eventos (request):
     return HttpResponse("evento do dia")
